@@ -72,3 +72,39 @@ body{
     cursor: pointer;
     color: white;
 }
+
+/* Fetured-section Style Here */
+.fetured-section{
+    margin-top: 70px;
+}
+.fetured-section-item{
+    text-align: center;
+}
+.fetured-section-header{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+.fetured-section-item p{
+    font-size: 15px;
+    color: rgb(213, 6, 6);
+    font-weight: 600;
+    margin: 0;
+}
+.fetured-section-item .rular{
+    width: 70px;
+    background-color: red;
+    border: 0;
+    outline: 0;
+    height: 1px;
+}
+.fetured-section-imges{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 80px;
+   
+}
+.feature-bike-img{
+    width: 300px;
+}
