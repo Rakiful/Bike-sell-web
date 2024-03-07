@@ -170,7 +170,7 @@ body{
     transition: 0.5s;
 }
 
-
+/* Testimonial-section Style Here */
 .testimonial-section{
     text-align: center;
     margin-top: 100px;
@@ -219,4 +219,54 @@ body{
     color: #23A6F0;
     margin: 0;
     margin-top: 5px;
+}
+
+
+/* Services-section Style Here */
+.services-section{
+    text-align: center;
+}
+.services-section-header{
+    font-size: 43px;
+    font-weight: 600;
+}
+.services-section-header span{
+    color: #E76F51;
+}
+.services-item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    margin-top: 60px;
+}
+.services-card img{
+    /* width: 300px; */
+    height: 210px;
+}
+.services-card{
+    border: 1px solid rgba(0, 0, 0, 0.143) ;
+    border-radius: 3px;
+    width: 350px;
+    height: 450px;
+}
+.services-card h2{
+    color: #E76F51;
+    font-weight: 500;
+    font-size: 17px;
+}
+.services-card p{
+    margin: 0 30px;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.project-section .project-item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.project-section .project-item img{
+    width: 100%;
 }
