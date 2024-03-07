@@ -225,6 +225,73 @@ body{
 }
 
 
+
+/* FAQ-section Style Here */
+.faq-section{
+    text-align: center;
+}
+.faq-section-header{
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.faq-section-header span{
+    color: #E76F51;
+}
+.faq-content{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+.faq-content .left-content img{
+    width: 450px;
+}
+.faq-content .right-content{
+    margin-right: -400px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.faq-section ul{
+    margin: 100px auto;
+    width: 600px;
+}
+.faq-section ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid gray;
+}
+.faq-section ul li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.faq-section ul li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
+}
+.faq-section label + input[type="radio"]{
+    display: none;
+}
+.faq-section .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.faq-section label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+
 /* Services-section Style Here */
 .services-section{
     text-align: center;
