@@ -36,6 +36,9 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
+.navbar-toggler:hover{
+    background-color: #e76f51c0;
+}
 
 /* Bannar-section Style Here */
 .bannar-section{
@@ -72,7 +75,9 @@ body{
     cursor: pointer;
     color: white;
 }
-
+.Purchase-btn:hover{
+    background-color: #e76f51c0;
+}
 /* Fetured-section Style Here */
 .fetured-section{
     margin-top: 70px;
@@ -81,12 +86,12 @@ body{
     text-align: center;
 }
 .fetured-section-header{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
     margin: 0;
 }
 .fetured-section-item p{
-    font-size: 15px;
+    font-size: 12px;
     color: rgb(213, 6, 6);
     font-weight: 600;
     margin: 0;
@@ -101,10 +106,66 @@ body{
 .fetured-section-imges{
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 120px;
     margin: 80px;
    
 }
 .feature-bike-img{
     width: 300px;
+}
+
+/* News-section Style Here */
+.news-section-header{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 60px;
+    text-align: center;
+}
+.news-section-item{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+.news-section-card{
+    border: 1px solid rgba(0, 0, 0, 0.143) ;
+    border-radius: 3px;
+    width: 375px;
+    height: 540px;
+}
+.news-section-card img{
+    width: 350px;
+    margin: 10px;
+}
+.news-section-card h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    margin-left: 20px;
+}
+.news-section-card p{
+    text-align: justify;
+    margin: 20px;
+    margin-top: 0;
+    color: gray;
+    font-size: 14px;
+    line-height: 2;
+}
+.news-section-card button{
+    margin-left: 20px;
+    border: 1px solid #E76F51;
+    background: transparent;
+    border-radius: 3px;
+    color: #E76F51;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+.news-section-card button:hover{
+    color: white;
+    background-color: #E76F51;
+    cursor: pointer;
+    transition: 0.5s;
 }
