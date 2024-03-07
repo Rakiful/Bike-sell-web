@@ -243,7 +243,6 @@ body{
     margin-top: 60px;
 }
 .services-card img{
-    /* width: 300px; */
     height: 210px;
 }
 .services-card{
@@ -263,10 +262,82 @@ body{
     font-size: 15px;
 }
 
-.project-section .project-item{
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+/* Contact-us Section Style Here */
+.contact-us-section-header{
+    font-size: 43px;
+    font-weight: 600;
 }
-.project-section .project-item img{
+.contact-us-section-header span{
+    color: #E76F51;
+}
+.Contact-us-Section{
+    min-height: 85vh;
+    padding: 50px;
+    text-align: center;
+}
+.Contact-us-contain{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Contact-us-contain h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+.Contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 200px;
+}
+.contact-from{
+    text-align: left;
+}
+.contact-from h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group input,.form-group textarea{
     width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e76f5137;
+    color: #333;
+}
+.form-sub-btn{
+    display: inline-block;
+    padding: 12px 24px ;
+    background-color: #E76F51;
+    color: white;
+    border-radius: 10px;
+    border: #E76F51;
+    cursor: pointer;
+    font-size: 15px;
+}
+.form-sub-btn:hover{
+    background-color: white;
+    color: #E76F51;
+    border: 2px solid #E76F51;
+}
+.contact-info{
+    text-align: left;
+    margin-left: 150px;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: #555;
+}
+.contact-info i{
+    color: #E76F51;
+    margin-right: 10px;
 }
