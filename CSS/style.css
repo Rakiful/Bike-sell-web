@@ -6,6 +6,7 @@ body{
     outline: 0;
     box-sizing: border-box;
 }
+
 /* Navbar-section Style Here */
 .navbar-section{
     padding-top: 18px;
@@ -78,6 +79,8 @@ body{
 .Purchase-btn:hover{
     background-color: #e76f51c0;
 }
+
+
 /* Fetured-section Style Here */
 .fetured-section{
     margin-top: 70px;
@@ -340,4 +343,52 @@ body{
 .contact-info i{
     color: #E76F51;
     margin-right: 10px;
+}
+
+
+/* Footter section style here  */
+.footer-section{
+    background-color: #212529 ;
+    color: white;
+    padding: 20px 50px;
+}
+.footer-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.l-c-item{
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    margin: 0;
+}
+.navbar-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    margin-left: -30px;
+    margin-top: -5px
+}
+.navbar-nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.copyright-p{
+    font-size: 13px;
+}
+.right-contain h1{
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.right-contain img{
+    display: flex;
+    width: 110px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
 }
